@@ -1,0 +1,58 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/test/test1",
+		"style": {
+			"navigationBarTitleText": "图片上传",
+			"navigationBarBackgroundColor":"#00aaff",
+			"navigationStyle": "custom"
+		}
+	},
+    {    
+			"path": "pages/imgUploader/imgUploader",
+			"style": {
+				"navigationBarTitleText": "图片上传",
+				"navigationBarBackgroundColor":"#00aaff",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/userLogin/userLogin",
+			"style": {
+				"navigationBarTitleText": "图片上传",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userLogin/registration",
+			"style": {
+				"navigationBarTitleText": "图片上传",
+				"navigationStyle": "custom"
+				
+			}
+		},
+		{
+			"path": "pages/userLogin/forget-password",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
